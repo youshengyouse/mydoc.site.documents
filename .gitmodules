@@ -1,0 +1,3 @@
+[submodule "zh/vue"]
+	path = zh/vue
+	url = git@github.com:vuejs/docs.git
