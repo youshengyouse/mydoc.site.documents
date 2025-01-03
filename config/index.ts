@@ -1,4 +1,4 @@
-import { vitepress } from "./sidebars"
+import { vitepress,vite } from "./sidebars"
 
 export * from "./sidebars"
 export const locales =  {
@@ -57,5 +57,6 @@ export const nav =   [
   ]
 
 export const sidebar={
-  ...vitepress
+  ...vitepress,
+  ...vite
 }

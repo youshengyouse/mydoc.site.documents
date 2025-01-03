@@ -1,5 +1,4 @@
 export const vitepress={
-    // 当用户位于 `guide` 目录时，会显示此侧边栏
     '/zh/vitepress/': [
       {
         text: '指南',
