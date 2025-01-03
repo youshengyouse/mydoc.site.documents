@@ -1,0 +1,17 @@
+{
+  "name": "documents",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lunaria:build": "lunaria build",
+    "lunaria:preview": "lunaria preview"
+  },
+  "devDependencies": {
+    "@lunariajs/core": "file:/www2024/0_common/js/lunaria/packages/core"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
