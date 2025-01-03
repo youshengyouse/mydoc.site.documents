@@ -1,2 +1,13 @@
-/.idea/
-/node_modules/
+.idea/
+node_modules/
+.DS_Store
+Thumbs.db
+db.json
+*.log
+node_modules/
+.deploy*/
+package-lock.json
+yarn.lock
+.vitepress/dist
+*.local
+.vitepress/cache
