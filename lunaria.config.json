@@ -17,6 +17,10 @@
 },
 "locales": [
   {
+    "label": "简体中文",
+    "lang": "zh"
+  },
+  {
     "label": "English",
     "lang": "en"
   }
