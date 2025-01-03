@@ -22,7 +22,7 @@ export default defineConfig({
 
 示例结果：
 
-![搜索弹窗截图](/search.png)
+![搜索弹窗截图](../public/search.png)
 
 或者，你可以使用 [Algolia DocSearch](#algolia-search) 或一些社区插件，例如：<https://www.npmjs.com/package/vitepress-plugin-search> 或者 <https://www.npmjs.com/package/vitepress-plugin-pagefind>。
 
