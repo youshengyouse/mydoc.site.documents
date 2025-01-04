@@ -1,14 +1,10 @@
-import { vitepress,vite,es6 } from "./sidebars"
+import { vitepress,vite,es6,typescript } from "./sidebars"
 
 export * from "./sidebars"
 export const locales =  {
     en: {
       label: 'English',
       lang: 'en'
-    },
-    fr:{
-      label: 'France',
-      lang: 'fr'
     },
     root: {
       label: '中文简体',
@@ -22,7 +18,8 @@ export const locales =  {
 const home={
     vitepress:"zh/vitepress/guide/getting-started",
     vite:"zh/vite/guide/index",
-    es6:"zh/es6/readme"
+    es6:"zh/es6/readme",
+    typescript:"zh/typescript5.5/PREFACE"
 }
 
 export const nav =   [
@@ -41,14 +38,13 @@ export const nav =   [
       ]
     },
     {
-      text: 'JS',
+      text: 'JS系列',
       items: [
         {
-          // 也可以省略标题
           items: [
             { text: 'JavaScript', link: '...' },
             { text: 'es6', link: home.es6 },
-            { text: 'TypeScript', link: '...' },
+            { text: 'TypeScript', link: home.typescript},
             { text: 'Nodejs', link: '...' }
           ]
         }
@@ -59,5 +55,6 @@ export const nav =   [
 export const sidebar={
   ...vitepress,
   ...vite,
-  ...es6
+  ...es6,
+  ...typescript
 }
