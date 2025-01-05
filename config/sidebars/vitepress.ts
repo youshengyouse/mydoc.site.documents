@@ -11,6 +11,12 @@ export const vitepress={
         collapsed: true,
         base: "/zh/vitepress/reference/",
         items: sidebarReference() 
+      },
+      {
+        text: '教程',
+        collapsed: true,
+        base: "/zh/vitepress/教程/",
+        items: sidebarTutorial() 
       }
     ],
 
@@ -91,6 +97,32 @@ export const vitepress={
               { text: 'Carbon Ads', link: 'carbon-ads' }
             ]
           }
+        ]
+      }
+    ]
+  }
+
+  function sidebarTutorial() {
+    return [
+      {
+        text: '自编教程',
+        base:"/zh/vitepress/教程/自编教程/",
+        items: [
+          { text: '01 准备', link: '01 准备' },
+          { text: '02 空vitepress项目', link: '02 空vitepress项目' },
+          { text: '03 配置文档目录', link: '03 配置文档目录' },
+          { text: '04 多语言lunariajs', link: '04 多语言lunariajs' },
+          { text: '05 多语言配置', link: '05 多语言配置' },
+          { text: '06 导航栏', link: '06 导航栏' },
+          { text: '07 侧边栏配置', link: '07 侧边栏配置' },
+          { text: 'xxxx', link: 'xxxxx' },
+        ]
+      },
+      {
+        text: '博客主题',
+        base:"/zh/vitepress/教程/博客主题/",
+        items: [
+          { text: '01 参考', link: '01 参考' },
         ]
       }
     ]

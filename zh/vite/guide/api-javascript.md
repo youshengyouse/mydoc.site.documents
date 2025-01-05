@@ -423,6 +423,31 @@ async function loadConfigFromFile(
 
 手动通过 esbuild 加载一份 Vite 配置。
 
+::: details 如加载vitepress配置
+```json
+{
+  path: '/www2024/4_tutorial/vitepress/01/.vitepress/config.mts',
+  config: {
+    srcDir: '/www2024/1_doing/documents/',
+    locales: { en: [Object], root: [Object] },
+    title: '麦朵文档',
+    description: 'A VitePress Site',
+    themeConfig: { nav: [Array], sidebar: [Object], socialLinks: [Array] }
+  },
+  dependencies: [
+    '../../../1_doing/documents/config/sidebars/vitepress.ts',
+    '../../../1_doing/documents/config/sidebars/vite.ts',
+    '../../../1_doing/documents/config/sidebars/es6.ts',
+    '../../../1_doing/documents/config/sidebars/typescript5.5.ts',
+    '../../../1_doing/documents/config/sidebars/nodejs3.ts',
+    '../../../1_doing/documents/config/sidebars/index.ts',
+    '../../../1_doing/documents/config/index.ts',
+    '.vitepress/config.mts'
+  ]
+}
+```
+:::
+
 ## `preprocessCSS`
 
 - **实验性：** [提供反馈](https://github.com/vitejs/vite/discussions/13815)
