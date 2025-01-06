@@ -1,5 +1,7 @@
 # VSCode使用笔记
 ## 代码折叠
+- 折叠所有代码块 `ctrl+k` 再输入 `ctrl+0`
+- 展开所有代码块 `ctrl+k` 再输入 `ctrl+j`
 
 ### 快捷键方法
 ‌折叠代码块‌：在Windows和Linux上使用Ctrl+Shift+[（在macOS上是Cmd+Shift+[），可以折叠当前光标位置的内部代码块。

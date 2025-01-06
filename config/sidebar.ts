@@ -6,5 +6,7 @@ export const sidebar={
   ...s.es6,
   ...s.typescript,
   ...s.typescriptTutorial,
-  ...s.other
+  ...s.other,
+  ...s.nodejs3,
+  ...s.javascript教程
 }

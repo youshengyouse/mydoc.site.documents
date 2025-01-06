@@ -6,6 +6,7 @@ const home={
     nodejs3:"zh/nodejs第三方库/目录",
     markdown:"zh/其它/markdown/index",
     ts:"zh/typescript教程/README",
+    "javascript教程":"zh/javascript教程/README",
     regular:"zh/其它/正则/index",
 }
 export const nav =   [
@@ -31,6 +32,7 @@ export const nav =   [
             { text: 'es6', link: home.es6 },
             { text: 'TypeScript', link: home.typescript},
             { text: 'JavaScript官方文档', link: "https://developer.mozilla.org/zh-CN/docs/Web/JavaScript",target:"_blank"},
+            { text: 'javascript教程', link: home.javascript教程},
             { text: 'Nodejs官方文档', link: "https://nodejs.cn/api/v23/index.html",target:"_blank"},
             { text: 'Nodejs第三方库', link: home.nodejs3},
             { text: 'TypeScript官方文档', link: "https://www.typescriptlang.org/docs/",target:"_blank"},
