@@ -9,4 +9,10 @@ export default {
     nav,
     sidebar,
   },
+  markdown:{
+    lineNumbers:true,
+    codeCopyButtonTitle: "拷贝代码到剪贴板",
+    theme: 'github-dark',
+  
+  }
 }

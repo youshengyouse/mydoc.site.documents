@@ -1,6 +1,8 @@
 const home={
+    vue:"https://cn.vuejs.org/guide/introduction.html",
     vitepress:"zh/vitepress/guide/getting-started",
     vite:"zh/vite/guide/index",
+    soybean:"https://soybeanjs.cn/",
     es6:"zh/es6/readme",
     typescript:"zh/typescript5.5/PREFACE",
     nodejs3:"zh/nodejs第三方库/目录",
@@ -18,8 +20,17 @@ export const nav =   [
           // 该部分的标题
           text: 'Vue官方',
           items: [
+            { text: 'vue', link: home.vue},
             { text: 'VitePress', link: home.vitepress},
             { text: 'Vite', link:home.vite }
+          ]
+        },
+        {
+          // 该部分的标题
+          text: '第三方',
+          items: [
+            { text: ' soybean管理系统', link: home.soybean},
+
           ]
         }
       ]

@@ -1,4 +1,6 @@
 # 开始 {#getting-started}
+- 官网：https://cn.vite.dev/
+- 代码：https://github.com/vitejs/vite
 
 <audio id="vite-audio">
   <source src="../public/vite.mp3" type="audio/mpeg">

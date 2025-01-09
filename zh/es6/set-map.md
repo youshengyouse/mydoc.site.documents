@@ -1,3 +1,6 @@
+---
+outline: 'deep'
+---
 # Set 和 Map 数据结构
 
 ## Set
@@ -549,6 +552,17 @@ const o = {p: 'Hello World'};
 
 m.set(o, 'content')
 m.get(o) // "content"
+console.log(m)             // Map(1) { { p: 'Hello World' } => 'content' }
+console.log(m.get(o))      // "content"
+
+// 修改
+m.set(o,'深圳')
+console.log(m.get(o))       // "content"
+
+console.log(m.get('name'))   // undefined ，不存在返回undefined
+console.log(!m.get('name'))  // true 
+console.log(!undefined)      // true
+console.log(!null)           // true
 
 m.has(o) // true
 m.delete(o) // true
@@ -570,6 +584,13 @@ map.has('name') // true
 map.get('name') // "张三"
 map.has('title') // true
 map.get('title') // "Author"
+
+// 必须是二维数组
+// const a = new Map(['city','shenzhen']) // TypeError: Iterator value city is not an entry object
+// console.log(a.size)
+
+const b = new Map([['name','zhangsan']]) 
+console.log(b.size)
 ```
 
 上面代码在新建 Map 实例时，就指定了两个键`name`和`title`。

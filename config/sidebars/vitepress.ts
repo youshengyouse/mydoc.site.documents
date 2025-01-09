@@ -115,7 +115,10 @@ export const vitepress={
           { text: '05 多语言配置', link: '05 多语言配置' },
           { text: '06 导航栏', link: '06 导航栏' },
           { text: '07 侧边栏配置', link: '07 侧边栏配置' },
-          { text: 'xxxx', link: 'xxxxx' },
+          { text: '08 扩展用户配置', link: '08 扩展用户配置' },
+          { text: '09 自定义csss样式', link: '09 自定义csss样式' },
+          { text: '10 修改title格式', link: '10 修改title格式' },
+          { text: '11 代码块配置', link: '11 代码块配置' },
         ]
       },
       {

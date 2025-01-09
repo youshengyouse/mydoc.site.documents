@@ -26,7 +26,7 @@ export const javascript教程={
       },
       {
         text: '标准库',
-        collapsed: true,
+        collapsed: false,
         base: "/zh/javascript教程/docs/stdlib/",
         items: sidebarStdlib()
       },

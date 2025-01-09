@@ -3,24 +3,29 @@ export const vite=  {
     {
       text: '指引',
       base: '/zh/vite/guide/',
-      collapsed: false,
+      collapsed: true,
       items:sidebarGuide()
     },
     {
       text: '配置',
       base: '/zh/vite/config/',
-      collapsed: false,
+      collapsed: true,
       items:sidebarConfig()
     },
+    {
+      text: '教程',
+      base: '/zh/vite/教程/',
+      collapsed: true,
+      items:[    {
+        text: '重写vite',
+        base: '/zh/vite/教程/重写vite/',
+        collapsed: true,
+        items:sidebarMike()
+      },
+    ]
+    },
   ],
-
-
 }
-
-
-
-
-
 
 function sidebarGuide() {
   return [
@@ -182,5 +187,21 @@ function sidebarConfig() {
       ]
     }
 
-  
+    function sidebarMike() {
+      return [
+          {
+              text: '在stackblitz上新建空项目',
+              link: '01_新建空项目mike'
+            },
+            {
+              text: 'only-allow',
+              link: '02_only-allow'
+            },
+            {
+              text: 'prettier',
+              link: '03_prettier'
+            },
+           
+          ]
+        }
  
